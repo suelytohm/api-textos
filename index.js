@@ -22,9 +22,9 @@ app.use("/nota", notaRoutes);
 
 mongoose
   .connect(
-    "mongoose.connect('mongodb+srv://raylsonw:451mPl3P455w0rD@cluster0.yjxejue.mongodb.net/?retryWrites=true&w=majority')"
+    "mongodb+srv://suelytohm:Z9Toy9huPerhBIZz@cluster0.ft2n9.mongodb.net/?retryWrites=true&w=majority"
+    // "mongodb+srv://raylsonw:451mPl3P455w0rD@cluster0.yjxejue.mongodb.net/?retryWrites=true&w=majority"
   )
-
   .then(() => {
     console.log("Saalve braziu :D");
     app.listen(process.env.PORT || 3000);
